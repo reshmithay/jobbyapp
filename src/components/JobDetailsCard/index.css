@@ -1,0 +1,265 @@
+.job-details-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.job-title-logo-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.job-title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.job-title {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rating {
+  margin-top: 0;
+  margin-left: 5px;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.star-icon {
+  margin-top: 2px;
+}
+
+.location-package-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.location-employment {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 16px;
+}
+
+.location {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.employment-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.employment {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.package {
+  color: #ffffff;
+  margin-top: 0;
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.description-visit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-sub-heading {
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.visit-link {
+  font-size: 20px;
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+}
+
+.link-icon {
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+.visit {
+  margin-bottom: 0;
+  margin-top: 24px;
+}
+
+.description {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  line-height: 1.8;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.life-at-company-heading {
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  line-height: 1.6;
+}
+
+.life-at-company-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.life-at-company-description {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  line-height: 1.8;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-right: 45px;
+}
+
+.life-at-company-image {
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+}
+
+@media screen and (max-width: 767px) {
+  .job-details-body-container {
+    padding: 20px;
+  }
+  .job-details-card {
+    padding: 20px;
+    width: 100%;
+  }
+  .company-logo {
+    width: 55px;
+    height: 55px;
+  }
+  .job-title-logo-rating-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .job-title {
+    font-size: 20px;
+  }
+  .location-container {
+    margin-right: 12px;
+  }
+  .location {
+    font-size: 14px;
+  }
+  .employment {
+    font-size: 14px;
+  }
+  .package {
+    font-size: 22px;
+  }
+  .card-sub-heading {
+    font-size: 20px;
+  }
+  .visit-link {
+    font-size: 16px;
+  }
+  .link-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .life-at-company-heading {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .life-at-company-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .life-at-company-description {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-right: 0px;
+  }
+  .life-at-company-image {
+    width: 100%;
+    max-height: 200px;
+  }
+}

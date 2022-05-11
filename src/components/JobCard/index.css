@@ -1,0 +1,128 @@
+.job-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #272727;
+  margin-right: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.job-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .job-card-container {
+    margin-right: 20px;
+  }
+}
+.job-title-logo-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.company-logo {
+  width: 55px;
+  height: 60px;
+}
+
+.job-title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.job-title {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rating {
+  margin-top: 0;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.star-icon {
+  margin-top: 2px;
+}
+
+.location-package-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.location-employment {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 16px;
+}
+
+.location {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.employment-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.employment {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.package {
+  color: #ffffff;
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.description-heading {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.job-description {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
